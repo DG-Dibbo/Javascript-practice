@@ -49,3 +49,14 @@
 
 // let array2 = array1.slice(1,3);
 // console.log(array2)
+
+// sorting array
+
+const unsorted_array = [5,3,8,1,2,17];
+
+const sorted_array_asc = [...unsorted_array].sort(function(a,b) {return a-b});
+const sorted_array_desc = [...unsorted_array].sort(function(a,b) {return b-a});
+
+console.log("Unsorted array:", unsorted_array);
+console.log("Sorted array in ascending order:", sorted_array_asc);
+console.log("Sorted array in descending order:", sorted_array_desc);
