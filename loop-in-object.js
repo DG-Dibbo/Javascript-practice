@@ -1,19 +1,19 @@
-const colleges = {
-    grp: {
-        science: {
-            dept: ['physics', 'chemistry', 'maths'],
-            location: 'Building A',
-        },
-        arts: {
-            dept: ['history', 'literature', 'philosophy'],
-        },
-        commerce: {
-            dept: ['economics', 'accounting', 'business'],
-        },
-    },
-    gpa : 5.0,
+// const colleges = {
+//     grp: {
+//         science: {
+//             dept: ['physics', 'chemistry', 'maths'],
+//             location: 'Building A',
+//         },
+//         arts: {
+//             dept: ['history', 'literature', 'philosophy'],
+//         },
+//         commerce: {
+//             dept: ['economics', 'accounting', 'business'],
+//         },
+//     },
+//     gpa : 5.0,
 
-};
+// };
 
 // console.log(colleges['grp']['science']['dept'][0]); // Output: physics
 // console.log(colleges.grp.arts);
